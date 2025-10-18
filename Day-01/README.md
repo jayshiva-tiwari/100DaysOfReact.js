@@ -1,3 +1,26 @@
+
+## 👋🏻 How to setup your react.js project, let's see in the below.
+
+#### First Command 
+``` npm create vite ```
+
+#### Second Step
+``` select React ```
+
+#### Third Step
+``` select language - TypeScript```
+
+#### Fourth Step 
+``` select your folder and do npm install```
+
+#### last Step 
+Run 
+```npm run dev```
+
+now your project setup is done !! 😊
+
+#
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -24,6 +47,7 @@ export default tseslint.config({
   },
 })
 ```
+#
 
 - Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
 - Optionally add `...tseslint.configs.stylisticTypeChecked`
