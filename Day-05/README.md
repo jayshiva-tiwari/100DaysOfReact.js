@@ -20,7 +20,6 @@ function FruitList() {
     </ul>
   );
 }
-
 ```
 
 This works—but using index as a key is not ideal when items change or reorder. Instead, use a unique ID if possible.
