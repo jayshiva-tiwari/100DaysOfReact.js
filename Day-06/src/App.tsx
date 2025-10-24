@@ -7,6 +7,7 @@ function App() {
     <>
     
       <CounterButton />
+      <br />
       
     </>
   )
