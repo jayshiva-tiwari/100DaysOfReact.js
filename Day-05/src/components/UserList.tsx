@@ -6,10 +6,10 @@ function UserList() {
         { id: 2, name: "Nisha Shah", role: "UI Designer" },
         { id: 3, name: "Rohan Kumar", role: "Backend Engineer" },
         { id: 4, name: "narayan tiwari", role: "Full stack" },
-        { id: 4, name: "ravi bhai", role: "Full stack" },
-        { id: 4, name: "kaushik tiwari", role: "CEO" },
-        { id: 4, name: "vipul tiwari", role: "Devops Engineer" },
-        { id: 4, name: "ashish tiwari", role: "Tester" },
+        { id: 5, name: "ravi bhai", role: "Full stack" },
+        { id: 6, name: "kaushik tiwari", role: "CEO" },
+        { id: 7, name: "vipul tiwari", role: "Devops Engineer" },
+        { id: 8, name: "ashish tiwari", role: "Tester" },
     ];
     return (
         <div className="con">
