@@ -21,8 +21,8 @@ function ToggleMessage() {
                     style={{
                         marginTop: "20px",
                         padding: "20px",
-                        backgroundColor: "#0000006a",
-                        border: "2px solid #007bff",
+                        backgroundColor: "#00000070",
+                        border: "2px solid #007bff48",
                         borderRadius: "8px",
                         maxWidth: "400px",
                         margin: "20px auto",

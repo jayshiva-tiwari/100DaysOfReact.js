@@ -1,11 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
 
-function UserGreeting(props) {
-  if (props.isLoggedIn) {
-    return <h1>Welcome back, {props.userName}!</h1>;
-  } else {
-    return <h1>Please sign up.</h1>;
+function UserGreeting() {
+
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  function handlClick(){
+    setIsLoggedIn(!isLoggedIn);
   }
+
+  return (
+    <div>
+      <p>welcome to React Day-08</p>
+      <button onClick={handlClick}></button>
+    </div>
+  )
 }
 
 export default UserGreeting

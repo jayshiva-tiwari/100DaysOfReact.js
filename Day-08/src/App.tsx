@@ -1,13 +1,13 @@
 
 import './App.css'
-import ToggleMessage from './components/togglesMsg'
+import ToggleMessage from './components/TogglesMsg'
 import UserGreeting from './components/UserGreeting'
 
 function App() {
 
   return (
     <>
-      <UserGreeting isLoggedIn={false} userName="shiv" />
+      <UserGreeting isLoggedIn={true} userName="shiv" />
       <ToggleMessage />
     </>
   )
