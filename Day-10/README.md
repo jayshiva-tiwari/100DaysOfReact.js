@@ -1,5 +1,4 @@
 # Day 10
-#
 ## Controlled vs Uncontrolled Inputs
 Learn the core differences between controlled and uncontrolled form inputs in React, and build a simple login form with a controlled approach.
 
