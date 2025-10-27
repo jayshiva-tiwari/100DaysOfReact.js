@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 // Receives theme & function from parent
 function ThemeToggle({ theme, onToggle }) {
