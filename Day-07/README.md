@@ -22,6 +22,6 @@ Build a small counter that increments and decrements the count using React state
 
 
 #####  Extra work:
-- Add a reset button that sets the counter back to zero.
-- Add min/max limits for the counter (e.g., cannot go below 0 or above 10).
-- Display a message when limits are reached.
+- Add a reset button that sets the counter back to zero. ✅
+- Add min/max limits for the counter (e.g., cannot go below 0 or above 10). ✅
+- Display a message when limits are reached. ✅

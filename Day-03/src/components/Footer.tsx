@@ -1,9 +1,10 @@
 import React from 'react'
 
 function Footer() {
+    const year = new Date().getFullYear();
     return (
         <footer style={{ position: 'absolute' }} >
-            <p>© 2023 My App. All rights reserved.</p>
+            <p>© {year} My App. All rights reserved.</p>
         </footer>
     )
 }

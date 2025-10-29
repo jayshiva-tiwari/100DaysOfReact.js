@@ -25,8 +25,8 @@ Can receive input data via props.
 
 
 ###### For practice task
-- Change the title text in Header dynamically using a variable.
+- Change the title text in Header dynamically using a variable. ✅
 
-- Add a current year in the Footer using JavaScript expression: {new Date().getFullYear()}.
+- Add a current year in the Footer using JavaScript expression: {new Date().getFullYear()}. ✅
 
-- Add an extra component (like Content) between Header and Footer for practice.
+- Add an extra component (like Content) between Header and Footer for practice. ✅

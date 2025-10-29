@@ -39,8 +39,8 @@ Let’s create a ProfileCard that takes three props — name, role, and image �
 2️⃣ Use this in your App.js file:
 
 ###### 💡 Practice Exercises
-- Add a clickable LinkedIn button in each card using a prop for profile URL.
+- Add a clickable LinkedIn button in each card using a prop for profile URL. ✅
 
-- Add conditional rendering: if image is not provided, display a default placeholder.
+- Add conditional rendering: if image is not provided, display a default placeholder. ✅
 
-- Experiment with different card styles or background colors using props.
+- Experiment with different card styles or background colors using props. ✅

@@ -1,16 +1,18 @@
 // import { useState } from 'react'
 
 import './App.css'
-import Profile from './components/profileCard'
+import ProfileCard from './components/ProfileCard'
+
 
 function App() {
 
   return (
     <>
-      <Profile
-        name="John Doe"
+      <ProfileCard 
+        name="Shiv tripathi"
         role="Software Engineer"
-        image="https://i.pinimg.com/736x/0c/e4/64/0ce4644b519c77ac82c5656f1828c9d5.jpg"
+        image="https://i.pinimg.com/1200x/98/d1/47/98d147dbac4c8545ae7330c92d9ca113.jpg"
+        profileUrl="https://www.linkedin.com/in/jayshiva-tiwari/"
       />
     </>
   )
