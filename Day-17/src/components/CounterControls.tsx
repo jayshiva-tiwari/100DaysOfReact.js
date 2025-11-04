@@ -7,7 +7,7 @@ interface CounterControlsProps {
   onIncrementBy: (value: number) => void;
 }
 
-const CounterControls: React.FC<CounterControlsProps> = ({
+const CounterControls: React.FC<CounterControlsProps> = ({ 
   onIncrement,
   onDecrement,
   onReset,
@@ -85,3 +85,4 @@ const CounterControls: React.FC<CounterControlsProps> = ({
 };
 
 export default CounterControls;
+
