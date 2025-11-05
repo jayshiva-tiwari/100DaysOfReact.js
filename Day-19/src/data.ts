@@ -1,0 +1,68 @@
+import { Product } from "./types";
+
+export const products: Product[] = [
+  {
+    id: 1,
+    name: "Wireless Mouse",
+    category: "electronics",
+    price: 599,
+    description: "Ergonomic wireless mouse with USB receiver",
+    inStock: true,
+  },
+  {
+    id: 2,
+    name: "Cotton T-Shirt",
+    category: "clothing",
+    price: 399,
+    description: "100% cotton comfortable t-shirt",
+    inStock: true,
+  },
+  {
+    id: 3,
+    name: "React Handbook",
+    category: "books",
+    price: 899,
+    description: "Complete guide to React development",
+    inStock: false,
+  },
+  {
+    id: 4,
+    name: "Bluetooth Speaker",
+    category: "electronics",
+    price: 1499,
+    description: "Portable speaker with 12-hour battery",
+    inStock: true,
+  },
+  {
+    id: 5,
+    name: "Ceramic Mug",
+    category: "home",
+    price: 199,
+    description: "Handcrafted ceramic coffee mug",
+    inStock: true,
+  },
+  {
+    id: 6,
+    name: "Denim Jeans",
+    category: "clothing",
+    price: 1299,
+    description: "Slim-fit denim jeans",
+    inStock: true,
+  },
+  {
+    id: 7,
+    name: "TypeScript Guide",
+    category: "books",
+    price: 799,
+    description: "Master TypeScript programming",
+    inStock: true,
+  },
+  {
+    id: 8,
+    name: "LED Desk Lamp",
+    category: "home",
+    price: 699,
+    description: "Adjustable LED lamp with USB port",
+    inStock: false,
+  },
+];
