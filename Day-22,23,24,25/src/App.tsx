@@ -13,7 +13,7 @@ const Home: React.FC = () => (
   <main>
     <Section>
       <About
-        fullName="Your Name"
+        fullName="Shiva Tiwari"
         bio={bio}
         avatarUrl="https://i.pinimg.com/1200x/bd/60/28/bd60280b725148a153be71b31ea2de51.jpg"
       />
