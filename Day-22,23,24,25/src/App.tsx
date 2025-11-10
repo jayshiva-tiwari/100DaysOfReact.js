@@ -1,16 +1,20 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Section from "./components/Section/Section";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import ProjectsList, { Project } from "./components/Projects/ProjectsList";
 import { skills } from "./data/Skills.ts";
+import Contact from "./components/Contact";
 import { projects } from "./data/Projects.ts";
 
 const bio =
   "I'm a React developer and MBA student, with a passion for web interfaces, research, and blending tech with business strategy. I volunteer, design, analyze data and build products for impact.";
 
 const Home: React.FC = () => (
+  <Router>
   <main>
+     <Route path="/" element={<Home />} />
     <Section>
       <About
         fullName="Shiva Tiwari"
@@ -26,7 +30,10 @@ const Home: React.FC = () => (
     <Section title="My Projects">
       <ProjectsList projects={projects} />
     </Section>
+    <Route path="/projects" element={<Projects />} />
+    <Route path="/contact" element={<Contact />} />
   </main>
+  </Router>
 );
 
 export default Home;
