@@ -5,9 +5,10 @@ const Footer: React.FC = () => {
     <footer 
       style={{
         padding: "20px",
-        backgroundColor: "#f1f1f1",
+        backgroundColor: "#000000ff",
         textAlign: "center",
         marginTop: "auto",
+        borderRadius: "8px",
       }}
     >
       © 2025 Your Name | All rights reserved.
